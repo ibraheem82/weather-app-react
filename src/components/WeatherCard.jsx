@@ -1,3 +1,7 @@
+import { useState, useEffect } from "react";
+import { BiWind } from "react-icons/bi";
+import { FaSearchLocation } from "react-icons/fa";
+import { LuWaves } from "react-icons/lu";
 
 const WeatherCard = () => {
   const [city, setCity] = useState("");
